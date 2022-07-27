@@ -12,7 +12,7 @@
 <body>
     <header class="container">
         <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container">
+            <div class="container fixed-top">
                 <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -25,13 +25,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shose</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#Backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link bg-success text-info rounded-3" href="#">Subscribe</a>
                         </li>
                         
                 
@@ -132,7 +132,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="p-3 border bg-primary d-flex align-items-center justify-content-around rounded">
-                            <h1 class="text-white">Shose</h1>
+                            <h1 class="text-white">Shoes</h1>
                         <img src="/images/categories/shoes.png" alt="">
                          </div>
                        
@@ -148,8 +148,8 @@
 
         <!-- Sahose Section Start -->
 
-        <section class="container my-5">
-            <h2>Shoes</h2>
+        <section class="container my-5" id="shoes">
+            <h2>Shose</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card border border-0 shadow-lg h-100">
@@ -198,8 +198,8 @@
         <!-- Sahose Section End -->
         
         <!-- Bags Section Start -->
-        <section class="container">
-            <h2>Bagspack</h2>
+        <section class="container" id="Backpack">
+            <h2>Backpack</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="card border-0 shadow-lg h-100">
@@ -248,10 +248,32 @@
 
         <!-- Bags Section End -->
 
+        <!-- Footer Section Start -->
+
+       <section style="height: 300px;" class="container mt-5 d-flex rounded-3 justify-content-center align-items-center bg-info">
+        <div>
+            <h2>This is footer Section</h2>
+            <p>Footer is the botomn in this web site.</p>
+        
+        <form>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+        
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        </form>
+    </section>
+
+        <!-- Footer Section End -->
+
         
 
 
     </main>
+    <footer class="mt-5 text-center">
+        <p><small>@2023. panda commerce. All rights resurved. city center, Norway.</small></p>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
